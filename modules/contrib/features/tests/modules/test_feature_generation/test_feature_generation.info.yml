@@ -1,0 +1,7 @@
+name: Test feature generation
+type: module
+core_version_requirement: '^9.4 || ^10'
+package: Test
+# Force this to install after features.
+dependencies:
+  - features:features
