@@ -1,0 +1,6 @@
+last-element-in-a-row:
+  version: VERSION
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
