@@ -51,7 +51,8 @@
             "drupal/core-composer-scaffold": true,
             "oomphinc/composer-installers-extender": true,
             "zaporylie/composer-drupal-optimizations": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "php-http/discovery": true
         },
         "preferred-install": {
             "droptica/droopler": "source",
@@ -62,19 +63,19 @@
         "enable-patching": true,
         "drupal-scaffold": {
             "locations": {
-                "web-root": "web/"
+                "web-root": "./"
             }
         },
         "installer-types": ["bower-asset", "npm-asset"],
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library", "type:git", "type:bower-asset", "type:npm-asset"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/droopler": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "core": ["type:drupal-core"],
+            "libraries/{$name}": ["type:drupal-library", "type:git", "type:bower-asset", "type:npm-asset"],
+            "modules/contrib/{$name}": ["type:drupal-module"],
+            "profiles/contrib/droopler": ["type:drupal-profile"],
+            "themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
-            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
-            "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
+            "modules/custom/{$name}": ["type:drupal-custom-module"],
+            "themes/custom/{$name}": ["type:drupal-custom-theme"]
         }
     }
 }
