@@ -3,7 +3,7 @@
         'name' => 'droptica/droopler-project',
         'pretty_version' => '4.0.x-dev',
         'version' => '4.0.9999999.9999999-dev',
-        'reference' => '6f48a40b648c86910ba53fb375269e77df221be8',
+        'reference' => '0e4b2e75a7327fb0ea4fd6ed88ca2678e087660d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -382,7 +382,7 @@
         'droptica/droopler-project' => array(
             'pretty_version' => '4.0.x-dev',
             'version' => '4.0.9999999.9999999-dev',
-            'reference' => '6f48a40b648c86910ba53fb375269e77df221be8',
+            'reference' => '0e4b2e75a7327fb0ea4fd6ed88ca2678e087660d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
